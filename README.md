@@ -153,38 +153,6 @@ http://localhost:8000/docs
 4. Upload an image
 5. Click **Execute**
 
-Example response:
-
-```json
-{
-  "filename": "dog.jpg",
-  "content_type": "image/jpeg",
-  "prediction": "Labrador retriever",
-  "confidence": 0.9321,
-  "top_5": [
-    {
-      "label": "Labrador retriever",
-      "confidence": 0.9321
-    },
-    {
-      "label": "golden retriever",
-      "confidence": 0.0412
-    },
-    {
-      "label": "flat-coated retriever",
-      "confidence": 0.0119
-    },
-    {
-      "label": "Chesapeake Bay retriever",
-      "confidence": 0.0055
-    },
-    {
-      "label": "tennis ball",
-      "confidence": 0.0021
-    }
-  ]
-}
-```
 
 ## Notes
 
